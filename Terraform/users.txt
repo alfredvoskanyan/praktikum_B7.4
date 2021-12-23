@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: alfred
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1FBgIi9KnCSTxLnsSK/tvm04mWTphqu6NaqNoGUd4iQnPfTubg+2Taq0TcI5TUsoH0R9mDDp+GpUHDw8+ZrYJRUOEe3zTA39GzFdncHTMvIPdRRE11whI89uDVfFeAPcl4MpO49Hx2gWOlnw1E9C0YmqTya2WE3QrrARECPddLze006byH5zo9jmsDadH0+GBLHuoa69lgkemDQ6OimGWd1UaFFyKItoU5lxHvHuD6hlMLIOwxmJAReezksG1PylufTdLDNUM7nSLI7jVao7UX0ZufXJypzr/nI8ksjEGF5jQmzTfaBTUderCrpgd+9wl2Z4AlD9+6leFPhsV3DhZ alfred@terraform.ru-central1.internal
